@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0183BF012A15FC8400739DA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF002A15FC8400739DA5 /* AppDelegate.m */; };
+		0183BF072A15FC8400739DA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF062A15FC8400739DA5 /* ViewController.m */; };
+		0183BF0A2A15FC8400739DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0183BF082A15FC8400739DA5 /* Main.storyboard */; };
+		0183BF0C2A15FC8700739DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0183BF0B2A15FC8700739DA5 /* Assets.xcassets */; };
+		0183BF0F2A15FC8700739DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0183BF0D2A15FC8700739DA5 /* LaunchScreen.storyboard */; };
+		0183BF122A15FC8700739DA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF112A15FC8700739DA5 /* main.m */; };
+		0183BF7D2A15FCF400739DA5 /* CGXHotBrandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF1C2A15FCF000739DA5 /* CGXHotBrandView.m */; };
+		0183BF7E2A15FCF400739DA5 /* CGXHotBrandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF1D2A15FCF000739DA5 /* CGXHotBrandCell.m */; };
+		0183BF7F2A15FCF400739DA5 /* CGXHotBrandFlowlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF1E2A15FCF000739DA5 /* CGXHotBrandFlowlayout.m */; };
+		0183BF802A15FCF400739DA5 /* CGXHotBrandScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF222A15FCF100739DA5 /* CGXHotBrandScrollView.m */; };
+		0183BF812A15FCF400739DA5 /* CGXHotBrandScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF242A15FCF100739DA5 /* CGXHotBrandScrollCell.m */; };
+		0183BF822A15FCF400739DA5 /* CGXHotBrandScrollFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF262A15FCF100739DA5 /* CGXHotBrandScrollFlowLayout.m */; };
+		0183BF832A15FCF400739DA5 /* CGXHotBrandZoomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF292A15FCF100739DA5 /* CGXHotBrandZoomFlowLayout.m */; };
+		0183BF842A15FCF400739DA5 /* CGXHotBrandZoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF2A2A15FCF100739DA5 /* CGXHotBrandZoomCell.m */; };
+		0183BF852A15FCF400739DA5 /* CGXHotBrandZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF2B2A15FCF100739DA5 /* CGXHotBrandZoomView.m */; };
+		0183BF862A15FCF400739DA5 /* CGXHotBrandCycleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF332A15FCF100739DA5 /* CGXHotBrandCycleFlowLayout.m */; };
+		0183BF872A15FCF400739DA5 /* CGXHotBrandCycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF342A15FCF100739DA5 /* CGXHotBrandCycleCell.m */; };
+		0183BF882A15FCF400739DA5 /* CGXHotBrandCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF352A15FCF100739DA5 /* CGXHotBrandCycleView.m */; };
+		0183BF892A15FCF400739DA5 /* CGXHotBrandCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF372A15FCF200739DA5 /* CGXHotBrandCoverFlowLayout.m */; };
+		0183BF8A2A15FCF400739DA5 /* CGXHotBrandCoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF382A15FCF200739DA5 /* CGXHotBrandCoverCell.m */; };
+		0183BF8B2A15FCF400739DA5 /* CGXHotBrandCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF392A15FCF200739DA5 /* CGXHotBrandCoverView.m */; };
+		0183BF8C2A15FCF400739DA5 /* CGXHotBrandBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF3F2A15FCF200739DA5 /* CGXHotBrandBaseView.m */; };
+		0183BF8D2A15FCF400739DA5 /* CGXHotBrandBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF402A15FCF200739DA5 /* CGXHotBrandBaseCell.m */; };
+		0183BF8E2A15FCF400739DA5 /* CGXHotBrandBaseFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF422A15FCF200739DA5 /* CGXHotBrandBaseFlowLayout.m */; };
+		0183BF8F2A15FCF400739DA5 /* CGXHotBrandCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF482A15FCF200739DA5 /* CGXHotBrandCollectionView.m */; };
+		0183BF902A15FCF400739DA5 /* CGXHotBrandTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF492A15FCF200739DA5 /* CGXHotBrandTextModel.m */; };
+		0183BF912A15FCF400739DA5 /* CGXHotBrandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF4B2A15FCF200739DA5 /* CGXHotBrandModel.m */; };
+		0183BF922A15FCF400739DA5 /* CGXHotBrandTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF4C2A15FCF200739DA5 /* CGXHotBrandTools.m */; };
+		0183BF932A15FCF400739DA5 /* CGXHotBrandTagLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF4D2A15FCF200739DA5 /* CGXHotBrandTagLabel.m */; };
+		0183BF942A15FCF400739DA5 /* NSTimer+CGXHotBrandTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF4E2A15FCF200739DA5 /* NSTimer+CGXHotBrandTimer.m */; };
+		0183BF952A15FCF400739DA5 /* UIImage+CGXHotBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF502A15FCF200739DA5 /* UIImage+CGXHotBrand.m */; };
+		0183BF962A15FCF400739DA5 /* CGXHotBrandBlurEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF532A15FCF200739DA5 /* CGXHotBrandBlurEffectView.m */; };
+		0183BF972A15FCF400739DA5 /* UIView+CGXHotBrandRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF562A15FCF200739DA5 /* UIView+CGXHotBrandRounded.m */; };
+		0183BF982A15FCF400739DA5 /* CGXHotBrandNumLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF582A15FCF200739DA5 /* CGXHotBrandNumLabel.m */; };
+		0183BF992A15FCF400739DA5 /* CGXHotBrandPageImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF5B2A15FCF300739DA5 /* CGXHotBrandPageImageView.m */; };
+		0183BF9A2A15FCF400739DA5 /* CGXHotBrandPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF602A15FCF300739DA5 /* CGXHotBrandPageControl.m */; };
+		0183BF9B2A15FCF400739DA5 /* CGXHotBrandPageDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF622A15FCF300739DA5 /* CGXHotBrandPageDotView.m */; };
+		0183BF9C2A15FCF400739DA5 /* CGXHotBrandPageNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF632A15FCF300739DA5 /* CGXHotBrandPageNumView.m */; };
+		0183BF9D2A15FCF400739DA5 /* CGXHotBrandPageSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF652A15FCF300739DA5 /* CGXHotBrandPageSquareView.m */; };
+		0183BF9E2A15FCF400739DA5 /* CGXHotBrandPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF662A15FCF300739DA5 /* CGXHotBrandPageModel.m */; };
+		0183BF9F2A15FCF400739DA5 /* CGXHotBrandCardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF682A15FCF300739DA5 /* CGXHotBrandCardFlowLayout.m */; };
+		0183BFA02A15FCF400739DA5 /* CGXHotBrandCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF6C2A15FCF300739DA5 /* CGXHotBrandCardView.m */; };
+		0183BFA12A15FCF400739DA5 /* CGXHotBrandCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF6D2A15FCF300739DA5 /* CGXHotBrandCardCell.m */; };
+		0183BFA22A15FCF400739DA5 /* CGXHotBrandRotaryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF722A15FCF300739DA5 /* CGXHotBrandRotaryFlowLayout.m */; };
+		0183BFA32A15FCF400739DA5 /* CGXHotBrandRotaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF732A15FCF300739DA5 /* CGXHotBrandRotaryCell.m */; };
+		0183BFA42A15FCF400739DA5 /* CGXHotBrandRotaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF742A15FCF300739DA5 /* CGXHotBrandRotaryView.m */; };
+		0183BFA52A15FCF400739DA5 /* CGXHotBrandSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF7A2A15FCF400739DA5 /* CGXHotBrandSliderView.m */; };
+		0183BFA62A15FCF400739DA5 /* CGXHotBrandSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF7B2A15FCF400739DA5 /* CGXHotBrandSliderCell.m */; };
+		0183BFA72A15FCF400739DA5 /* CGXHotBrandSliderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BF7C2A15FCF400739DA5 /* CGXHotBrandSliderFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0183BEFC2A15FC8400739DA5 /* CGXBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGXBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0183BEFF2A15FC8400739DA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0183BF002A15FC8400739DA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0183BF052A15FC8400739DA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0183BF062A15FC8400739DA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0183BF092A15FC8400739DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0183BF0B2A15FC8700739DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0183BF0E2A15FC8700739DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0183BF102A15FC8700739DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0183BF112A15FC8700739DA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0183BF1B2A15FCF000739DA5 /* CGXHotBrandFlowlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandFlowlayout.h; sourceTree = "<group>"; };
+		0183BF1C2A15FCF000739DA5 /* CGXHotBrandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandView.m; sourceTree = "<group>"; };
+		0183BF1D2A15FCF000739DA5 /* CGXHotBrandCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCell.m; sourceTree = "<group>"; };
+		0183BF1E2A15FCF000739DA5 /* CGXHotBrandFlowlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandFlowlayout.m; sourceTree = "<group>"; };
+		0183BF1F2A15FCF000739DA5 /* CGXHotBrandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandView.h; sourceTree = "<group>"; };
+		0183BF202A15FCF000739DA5 /* CGXHotBrandCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCell.h; sourceTree = "<group>"; };
+		0183BF222A15FCF100739DA5 /* CGXHotBrandScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandScrollView.m; sourceTree = "<group>"; };
+		0183BF232A15FCF100739DA5 /* CGXHotBrandScrollFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandScrollFlowLayout.h; sourceTree = "<group>"; };
+		0183BF242A15FCF100739DA5 /* CGXHotBrandScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandScrollCell.m; sourceTree = "<group>"; };
+		0183BF252A15FCF100739DA5 /* CGXHotBrandScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandScrollView.h; sourceTree = "<group>"; };
+		0183BF262A15FCF100739DA5 /* CGXHotBrandScrollFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandScrollFlowLayout.m; sourceTree = "<group>"; };
+		0183BF272A15FCF100739DA5 /* CGXHotBrandScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandScrollCell.h; sourceTree = "<group>"; };
+		0183BF292A15FCF100739DA5 /* CGXHotBrandZoomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandZoomFlowLayout.m; sourceTree = "<group>"; };
+		0183BF2A2A15FCF100739DA5 /* CGXHotBrandZoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandZoomCell.m; sourceTree = "<group>"; };
+		0183BF2B2A15FCF100739DA5 /* CGXHotBrandZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandZoomView.m; sourceTree = "<group>"; };
+		0183BF2C2A15FCF100739DA5 /* CGXHotBrandZoomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandZoomFlowLayout.h; sourceTree = "<group>"; };
+		0183BF2D2A15FCF100739DA5 /* CGXHotBrandZoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandZoomCell.h; sourceTree = "<group>"; };
+		0183BF2E2A15FCF100739DA5 /* CGXHotBrandZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandZoomView.h; sourceTree = "<group>"; };
+		0183BF302A15FCF100739DA5 /* CGXHotBrandCycleFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCycleFlowLayout.h; sourceTree = "<group>"; };
+		0183BF312A15FCF100739DA5 /* CGXHotBrandCycleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCycleCell.h; sourceTree = "<group>"; };
+		0183BF322A15FCF100739DA5 /* CGXHotBrandCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCycleView.h; sourceTree = "<group>"; };
+		0183BF332A15FCF100739DA5 /* CGXHotBrandCycleFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCycleFlowLayout.m; sourceTree = "<group>"; };
+		0183BF342A15FCF100739DA5 /* CGXHotBrandCycleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCycleCell.m; sourceTree = "<group>"; };
+		0183BF352A15FCF100739DA5 /* CGXHotBrandCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCycleView.m; sourceTree = "<group>"; };
+		0183BF372A15FCF200739DA5 /* CGXHotBrandCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCoverFlowLayout.m; sourceTree = "<group>"; };
+		0183BF382A15FCF200739DA5 /* CGXHotBrandCoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCoverCell.m; sourceTree = "<group>"; };
+		0183BF392A15FCF200739DA5 /* CGXHotBrandCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCoverView.m; sourceTree = "<group>"; };
+		0183BF3A2A15FCF200739DA5 /* CGXHotBrandCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCoverFlowLayout.h; sourceTree = "<group>"; };
+		0183BF3B2A15FCF200739DA5 /* CGXHotBrandCoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCoverCell.h; sourceTree = "<group>"; };
+		0183BF3C2A15FCF200739DA5 /* CGXHotBrandCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCoverView.h; sourceTree = "<group>"; };
+		0183BF3E2A15FCF200739DA5 /* CGXHotBrandBaseFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandBaseFlowLayout.h; sourceTree = "<group>"; };
+		0183BF3F2A15FCF200739DA5 /* CGXHotBrandBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandBaseView.m; sourceTree = "<group>"; };
+		0183BF402A15FCF200739DA5 /* CGXHotBrandBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandBaseCell.m; sourceTree = "<group>"; };
+		0183BF412A15FCF200739DA5 /* CGXHotBrandBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandBaseView.h; sourceTree = "<group>"; };
+		0183BF422A15FCF200739DA5 /* CGXHotBrandBaseFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandBaseFlowLayout.m; sourceTree = "<group>"; };
+		0183BF432A15FCF200739DA5 /* CGXHotBrandBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandBaseCell.h; sourceTree = "<group>"; };
+		0183BF452A15FCF200739DA5 /* UIImage+CGXHotBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGXHotBrand.h"; sourceTree = "<group>"; };
+		0183BF462A15FCF200739DA5 /* CGXHotBrandBlurEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandBlurEffectView.h; sourceTree = "<group>"; };
+		0183BF472A15FCF200739DA5 /* CGXHotBrandDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandDefines.h; sourceTree = "<group>"; };
+		0183BF482A15FCF200739DA5 /* CGXHotBrandCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCollectionView.m; sourceTree = "<group>"; };
+		0183BF492A15FCF200739DA5 /* CGXHotBrandTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandTextModel.m; sourceTree = "<group>"; };
+		0183BF4A2A15FCF200739DA5 /* UIView+CGXHotBrandRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGXHotBrandRounded.h"; sourceTree = "<group>"; };
+		0183BF4B2A15FCF200739DA5 /* CGXHotBrandModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandModel.m; sourceTree = "<group>"; };
+		0183BF4C2A15FCF200739DA5 /* CGXHotBrandTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandTools.m; sourceTree = "<group>"; };
+		0183BF4D2A15FCF200739DA5 /* CGXHotBrandTagLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandTagLabel.m; sourceTree = "<group>"; };
+		0183BF4E2A15FCF200739DA5 /* NSTimer+CGXHotBrandTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+CGXHotBrandTimer.m"; sourceTree = "<group>"; };
+		0183BF4F2A15FCF200739DA5 /* CGXHotBrandNumLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandNumLabel.h; sourceTree = "<group>"; };
+		0183BF502A15FCF200739DA5 /* UIImage+CGXHotBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGXHotBrand.m"; sourceTree = "<group>"; };
+		0183BF512A15FCF200739DA5 /* CGXHotBrandTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandTextModel.h; sourceTree = "<group>"; };
+		0183BF522A15FCF200739DA5 /* CGXHotBrandCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCollectionView.h; sourceTree = "<group>"; };
+		0183BF532A15FCF200739DA5 /* CGXHotBrandBlurEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandBlurEffectView.m; sourceTree = "<group>"; };
+		0183BF542A15FCF200739DA5 /* CGXHotBrandTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandTools.h; sourceTree = "<group>"; };
+		0183BF552A15FCF200739DA5 /* CGXHotBrandModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandModel.h; sourceTree = "<group>"; };
+		0183BF562A15FCF200739DA5 /* UIView+CGXHotBrandRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGXHotBrandRounded.m"; sourceTree = "<group>"; };
+		0183BF572A15FCF200739DA5 /* NSTimer+CGXHotBrandTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+CGXHotBrandTimer.h"; sourceTree = "<group>"; };
+		0183BF582A15FCF200739DA5 /* CGXHotBrandNumLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandNumLabel.m; sourceTree = "<group>"; };
+		0183BF592A15FCF200739DA5 /* CGXHotBrandTagLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandTagLabel.h; sourceTree = "<group>"; };
+		0183BF5B2A15FCF300739DA5 /* CGXHotBrandPageImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandPageImageView.m; sourceTree = "<group>"; };
+		0183BF5C2A15FCF300739DA5 /* CGXHotBrandPageDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandPageDotView.h; sourceTree = "<group>"; };
+		0183BF5D2A15FCF300739DA5 /* CGXHotBrandPageNumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandPageNumView.h; sourceTree = "<group>"; };
+		0183BF5E2A15FCF300739DA5 /* CGXHotBrandPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandPageModel.h; sourceTree = "<group>"; };
+		0183BF5F2A15FCF300739DA5 /* CGXHotBrandPageSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandPageSquareView.h; sourceTree = "<group>"; };
+		0183BF602A15FCF300739DA5 /* CGXHotBrandPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandPageControl.m; sourceTree = "<group>"; };
+		0183BF612A15FCF300739DA5 /* CGXHotBrandPageImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandPageImageView.h; sourceTree = "<group>"; };
+		0183BF622A15FCF300739DA5 /* CGXHotBrandPageDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandPageDotView.m; sourceTree = "<group>"; };
+		0183BF632A15FCF300739DA5 /* CGXHotBrandPageNumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandPageNumView.m; sourceTree = "<group>"; };
+		0183BF642A15FCF300739DA5 /* CGXHotBrandPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandPageControl.h; sourceTree = "<group>"; };
+		0183BF652A15FCF300739DA5 /* CGXHotBrandPageSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandPageSquareView.m; sourceTree = "<group>"; };
+		0183BF662A15FCF300739DA5 /* CGXHotBrandPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandPageModel.m; sourceTree = "<group>"; };
+		0183BF682A15FCF300739DA5 /* CGXHotBrandCardFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCardFlowLayout.m; sourceTree = "<group>"; };
+		0183BF692A15FCF300739DA5 /* CGXHotBrandCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCardView.h; sourceTree = "<group>"; };
+		0183BF6A2A15FCF300739DA5 /* CGXHotBrandCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCardCell.h; sourceTree = "<group>"; };
+		0183BF6B2A15FCF300739DA5 /* CGXHotBrandCardFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandCardFlowLayout.h; sourceTree = "<group>"; };
+		0183BF6C2A15FCF300739DA5 /* CGXHotBrandCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCardView.m; sourceTree = "<group>"; };
+		0183BF6D2A15FCF300739DA5 /* CGXHotBrandCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandCardCell.m; sourceTree = "<group>"; };
+		0183BF6E2A15FCF300739DA5 /* CGXHotBrandViewOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandViewOC.h; sourceTree = "<group>"; };
+		0183BF702A15FCF300739DA5 /* CGXHotBrandRotaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandRotaryCell.h; sourceTree = "<group>"; };
+		0183BF712A15FCF300739DA5 /* CGXHotBrandRotaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandRotaryView.h; sourceTree = "<group>"; };
+		0183BF722A15FCF300739DA5 /* CGXHotBrandRotaryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandRotaryFlowLayout.m; sourceTree = "<group>"; };
+		0183BF732A15FCF300739DA5 /* CGXHotBrandRotaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandRotaryCell.m; sourceTree = "<group>"; };
+		0183BF742A15FCF300739DA5 /* CGXHotBrandRotaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandRotaryView.m; sourceTree = "<group>"; };
+		0183BF752A15FCF300739DA5 /* CGXHotBrandRotaryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandRotaryFlowLayout.h; sourceTree = "<group>"; };
+		0183BF772A15FCF400739DA5 /* CGXHotBrandSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandSliderView.h; sourceTree = "<group>"; };
+		0183BF782A15FCF400739DA5 /* CGXHotBrandSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandSliderCell.h; sourceTree = "<group>"; };
+		0183BF792A15FCF400739DA5 /* CGXHotBrandSliderFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHotBrandSliderFlowLayout.h; sourceTree = "<group>"; };
+		0183BF7A2A15FCF400739DA5 /* CGXHotBrandSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandSliderView.m; sourceTree = "<group>"; };
+		0183BF7B2A15FCF400739DA5 /* CGXHotBrandSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandSliderCell.m; sourceTree = "<group>"; };
+		0183BF7C2A15FCF400739DA5 /* CGXHotBrandSliderFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHotBrandSliderFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0183BEF92A15FC8400739DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0183BEF32A15FC8300739DA5 = {
+			isa = PBXGroup;
+			children = (
+				0183BEFE2A15FC8400739DA5 /* CGXBannerView */,
+				0183BEFD2A15FC8400739DA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0183BEFD2A15FC8400739DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0183BEFC2A15FC8400739DA5 /* CGXBannerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0183BEFE2A15FC8400739DA5 /* CGXBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF182A15FCB900739DA5 /* Classes */,
+				0183BEFF2A15FC8400739DA5 /* AppDelegate.h */,
+				0183BF002A15FC8400739DA5 /* AppDelegate.m */,
+				0183BF052A15FC8400739DA5 /* ViewController.h */,
+				0183BF062A15FC8400739DA5 /* ViewController.m */,
+				0183BF082A15FC8400739DA5 /* Main.storyboard */,
+				0183BF0B2A15FC8700739DA5 /* Assets.xcassets */,
+				0183BF0D2A15FC8700739DA5 /* LaunchScreen.storyboard */,
+				0183BF102A15FC8700739DA5 /* Info.plist */,
+				0183BF112A15FC8700739DA5 /* main.m */,
+			);
+			path = CGXBannerView;
+			sourceTree = "<group>";
+		};
+		0183BF182A15FCB900739DA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF6E2A15FCF300739DA5 /* CGXHotBrandViewOC.h */,
+				0183BF3D2A15FCF200739DA5 /* Base */,
+				0183BF672A15FCF300739DA5 /* Card */,
+				0183BF362A15FCF200739DA5 /* Cover */,
+				0183BF442A15FCF200739DA5 /* Custom */,
+				0183BF2F2A15FCF100739DA5 /* Cycle */,
+				0183BF1A2A15FCF000739DA5 /* HotBrand */,
+				0183BF5A2A15FCF300739DA5 /* PageControl */,
+				0183BF6F2A15FCF300739DA5 /* Rotary */,
+				0183BF212A15FCF100739DA5 /* Scroll */,
+				0183BF762A15FCF400739DA5 /* Slider */,
+				0183BF282A15FCF100739DA5 /* Zoom */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0183BF1A2A15FCF000739DA5 /* HotBrand */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF202A15FCF000739DA5 /* CGXHotBrandCell.h */,
+				0183BF1D2A15FCF000739DA5 /* CGXHotBrandCell.m */,
+				0183BF1B2A15FCF000739DA5 /* CGXHotBrandFlowlayout.h */,
+				0183BF1E2A15FCF000739DA5 /* CGXHotBrandFlowlayout.m */,
+				0183BF1F2A15FCF000739DA5 /* CGXHotBrandView.h */,
+				0183BF1C2A15FCF000739DA5 /* CGXHotBrandView.m */,
+			);
+			path = HotBrand;
+			sourceTree = "<group>";
+		};
+		0183BF212A15FCF100739DA5 /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF272A15FCF100739DA5 /* CGXHotBrandScrollCell.h */,
+				0183BF242A15FCF100739DA5 /* CGXHotBrandScrollCell.m */,
+				0183BF232A15FCF100739DA5 /* CGXHotBrandScrollFlowLayout.h */,
+				0183BF262A15FCF100739DA5 /* CGXHotBrandScrollFlowLayout.m */,
+				0183BF252A15FCF100739DA5 /* CGXHotBrandScrollView.h */,
+				0183BF222A15FCF100739DA5 /* CGXHotBrandScrollView.m */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
+		0183BF282A15FCF100739DA5 /* Zoom */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF2D2A15FCF100739DA5 /* CGXHotBrandZoomCell.h */,
+				0183BF2A2A15FCF100739DA5 /* CGXHotBrandZoomCell.m */,
+				0183BF2C2A15FCF100739DA5 /* CGXHotBrandZoomFlowLayout.h */,
+				0183BF292A15FCF100739DA5 /* CGXHotBrandZoomFlowLayout.m */,
+				0183BF2E2A15FCF100739DA5 /* CGXHotBrandZoomView.h */,
+				0183BF2B2A15FCF100739DA5 /* CGXHotBrandZoomView.m */,
+			);
+			path = Zoom;
+			sourceTree = "<group>";
+		};
+		0183BF2F2A15FCF100739DA5 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF312A15FCF100739DA5 /* CGXHotBrandCycleCell.h */,
+				0183BF342A15FCF100739DA5 /* CGXHotBrandCycleCell.m */,
+				0183BF302A15FCF100739DA5 /* CGXHotBrandCycleFlowLayout.h */,
+				0183BF332A15FCF100739DA5 /* CGXHotBrandCycleFlowLayout.m */,
+				0183BF322A15FCF100739DA5 /* CGXHotBrandCycleView.h */,
+				0183BF352A15FCF100739DA5 /* CGXHotBrandCycleView.m */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		0183BF362A15FCF200739DA5 /* Cover */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF3B2A15FCF200739DA5 /* CGXHotBrandCoverCell.h */,
+				0183BF382A15FCF200739DA5 /* CGXHotBrandCoverCell.m */,
+				0183BF3A2A15FCF200739DA5 /* CGXHotBrandCoverFlowLayout.h */,
+				0183BF372A15FCF200739DA5 /* CGXHotBrandCoverFlowLayout.m */,
+				0183BF3C2A15FCF200739DA5 /* CGXHotBrandCoverView.h */,
+				0183BF392A15FCF200739DA5 /* CGXHotBrandCoverView.m */,
+			);
+			path = Cover;
+			sourceTree = "<group>";
+		};
+		0183BF3D2A15FCF200739DA5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF432A15FCF200739DA5 /* CGXHotBrandBaseCell.h */,
+				0183BF402A15FCF200739DA5 /* CGXHotBrandBaseCell.m */,
+				0183BF3E2A15FCF200739DA5 /* CGXHotBrandBaseFlowLayout.h */,
+				0183BF422A15FCF200739DA5 /* CGXHotBrandBaseFlowLayout.m */,
+				0183BF412A15FCF200739DA5 /* CGXHotBrandBaseView.h */,
+				0183BF3F2A15FCF200739DA5 /* CGXHotBrandBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0183BF442A15FCF200739DA5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF462A15FCF200739DA5 /* CGXHotBrandBlurEffectView.h */,
+				0183BF532A15FCF200739DA5 /* CGXHotBrandBlurEffectView.m */,
+				0183BF522A15FCF200739DA5 /* CGXHotBrandCollectionView.h */,
+				0183BF482A15FCF200739DA5 /* CGXHotBrandCollectionView.m */,
+				0183BF472A15FCF200739DA5 /* CGXHotBrandDefines.h */,
+				0183BF552A15FCF200739DA5 /* CGXHotBrandModel.h */,
+				0183BF4B2A15FCF200739DA5 /* CGXHotBrandModel.m */,
+				0183BF4F2A15FCF200739DA5 /* CGXHotBrandNumLabel.h */,
+				0183BF582A15FCF200739DA5 /* CGXHotBrandNumLabel.m */,
+				0183BF592A15FCF200739DA5 /* CGXHotBrandTagLabel.h */,
+				0183BF4D2A15FCF200739DA5 /* CGXHotBrandTagLabel.m */,
+				0183BF512A15FCF200739DA5 /* CGXHotBrandTextModel.h */,
+				0183BF492A15FCF200739DA5 /* CGXHotBrandTextModel.m */,
+				0183BF542A15FCF200739DA5 /* CGXHotBrandTools.h */,
+				0183BF4C2A15FCF200739DA5 /* CGXHotBrandTools.m */,
+				0183BF572A15FCF200739DA5 /* NSTimer+CGXHotBrandTimer.h */,
+				0183BF4E2A15FCF200739DA5 /* NSTimer+CGXHotBrandTimer.m */,
+				0183BF452A15FCF200739DA5 /* UIImage+CGXHotBrand.h */,
+				0183BF502A15FCF200739DA5 /* UIImage+CGXHotBrand.m */,
+				0183BF4A2A15FCF200739DA5 /* UIView+CGXHotBrandRounded.h */,
+				0183BF562A15FCF200739DA5 /* UIView+CGXHotBrandRounded.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		0183BF5A2A15FCF300739DA5 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF642A15FCF300739DA5 /* CGXHotBrandPageControl.h */,
+				0183BF602A15FCF300739DA5 /* CGXHotBrandPageControl.m */,
+				0183BF5C2A15FCF300739DA5 /* CGXHotBrandPageDotView.h */,
+				0183BF622A15FCF300739DA5 /* CGXHotBrandPageDotView.m */,
+				0183BF612A15FCF300739DA5 /* CGXHotBrandPageImageView.h */,
+				0183BF5B2A15FCF300739DA5 /* CGXHotBrandPageImageView.m */,
+				0183BF5E2A15FCF300739DA5 /* CGXHotBrandPageModel.h */,
+				0183BF662A15FCF300739DA5 /* CGXHotBrandPageModel.m */,
+				0183BF5D2A15FCF300739DA5 /* CGXHotBrandPageNumView.h */,
+				0183BF632A15FCF300739DA5 /* CGXHotBrandPageNumView.m */,
+				0183BF5F2A15FCF300739DA5 /* CGXHotBrandPageSquareView.h */,
+				0183BF652A15FCF300739DA5 /* CGXHotBrandPageSquareView.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		0183BF672A15FCF300739DA5 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF6A2A15FCF300739DA5 /* CGXHotBrandCardCell.h */,
+				0183BF6D2A15FCF300739DA5 /* CGXHotBrandCardCell.m */,
+				0183BF6B2A15FCF300739DA5 /* CGXHotBrandCardFlowLayout.h */,
+				0183BF682A15FCF300739DA5 /* CGXHotBrandCardFlowLayout.m */,
+				0183BF692A15FCF300739DA5 /* CGXHotBrandCardView.h */,
+				0183BF6C2A15FCF300739DA5 /* CGXHotBrandCardView.m */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		0183BF6F2A15FCF300739DA5 /* Rotary */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF702A15FCF300739DA5 /* CGXHotBrandRotaryCell.h */,
+				0183BF732A15FCF300739DA5 /* CGXHotBrandRotaryCell.m */,
+				0183BF752A15FCF300739DA5 /* CGXHotBrandRotaryFlowLayout.h */,
+				0183BF722A15FCF300739DA5 /* CGXHotBrandRotaryFlowLayout.m */,
+				0183BF712A15FCF300739DA5 /* CGXHotBrandRotaryView.h */,
+				0183BF742A15FCF300739DA5 /* CGXHotBrandRotaryView.m */,
+			);
+			path = Rotary;
+			sourceTree = "<group>";
+		};
+		0183BF762A15FCF400739DA5 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				0183BF782A15FCF400739DA5 /* CGXHotBrandSliderCell.h */,
+				0183BF7B2A15FCF400739DA5 /* CGXHotBrandSliderCell.m */,
+				0183BF792A15FCF400739DA5 /* CGXHotBrandSliderFlowLayout.h */,
+				0183BF7C2A15FCF400739DA5 /* CGXHotBrandSliderFlowLayout.m */,
+				0183BF772A15FCF400739DA5 /* CGXHotBrandSliderView.h */,
+				0183BF7A2A15FCF400739DA5 /* CGXHotBrandSliderView.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0183BEFB2A15FC8400739DA5 /* CGXBannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0183BF152A15FC8700739DA5 /* Build configuration list for PBXNativeTarget "CGXBannerView" */;
+			buildPhases = (
+				0183BEF82A15FC8400739DA5 /* Sources */,
+				0183BEF92A15FC8400739DA5 /* Frameworks */,
+				0183BEFA2A15FC8400739DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGXBannerView;
+			productName = CGXBannerView;
+			productReference = 0183BEFC2A15FC8400739DA5 /* CGXBannerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0183BEF42A15FC8300739DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0183BEFB2A15FC8400739DA5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 0183BEF72A15FC8300739DA5 /* Build configuration list for PBXProject "CGXBannerView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0183BEF32A15FC8300739DA5;
+			productRefGroup = 0183BEFD2A15FC8400739DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0183BEFB2A15FC8400739DA5 /* CGXBannerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0183BEFA2A15FC8400739DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0183BF0F2A15FC8700739DA5 /* LaunchScreen.storyboard in Resources */,
+				0183BF0C2A15FC8700739DA5 /* Assets.xcassets in Resources */,
+				0183BF0A2A15FC8400739DA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0183BEF82A15FC8400739DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0183BF952A15FCF400739DA5 /* UIImage+CGXHotBrand.m in Sources */,
+				0183BF892A15FCF400739DA5 /* CGXHotBrandCoverFlowLayout.m in Sources */,
+				0183BF942A15FCF400739DA5 /* NSTimer+CGXHotBrandTimer.m in Sources */,
+				0183BF972A15FCF400739DA5 /* UIView+CGXHotBrandRounded.m in Sources */,
+				0183BF992A15FCF400739DA5 /* CGXHotBrandPageImageView.m in Sources */,
+				0183BF9C2A15FCF400739DA5 /* CGXHotBrandPageNumView.m in Sources */,
+				0183BF9A2A15FCF400739DA5 /* CGXHotBrandPageControl.m in Sources */,
+				0183BF7F2A15FCF400739DA5 /* CGXHotBrandFlowlayout.m in Sources */,
+				0183BF9E2A15FCF400739DA5 /* CGXHotBrandPageModel.m in Sources */,
+				0183BF8E2A15FCF400739DA5 /* CGXHotBrandBaseFlowLayout.m in Sources */,
+				0183BF8F2A15FCF400739DA5 /* CGXHotBrandCollectionView.m in Sources */,
+				0183BF932A15FCF400739DA5 /* CGXHotBrandTagLabel.m in Sources */,
+				0183BF9D2A15FCF400739DA5 /* CGXHotBrandPageSquareView.m in Sources */,
+				0183BF9B2A15FCF400739DA5 /* CGXHotBrandPageDotView.m in Sources */,
+				0183BF882A15FCF400739DA5 /* CGXHotBrandCycleView.m in Sources */,
+				0183BF8B2A15FCF400739DA5 /* CGXHotBrandCoverView.m in Sources */,
+				0183BF962A15FCF400739DA5 /* CGXHotBrandBlurEffectView.m in Sources */,
+				0183BF872A15FCF400739DA5 /* CGXHotBrandCycleCell.m in Sources */,
+				0183BFA22A15FCF400739DA5 /* CGXHotBrandRotaryFlowLayout.m in Sources */,
+				0183BF072A15FC8400739DA5 /* ViewController.m in Sources */,
+				0183BF7E2A15FCF400739DA5 /* CGXHotBrandCell.m in Sources */,
+				0183BF862A15FCF400739DA5 /* CGXHotBrandCycleFlowLayout.m in Sources */,
+				0183BF912A15FCF400739DA5 /* CGXHotBrandModel.m in Sources */,
+				0183BFA72A15FCF400739DA5 /* CGXHotBrandSliderFlowLayout.m in Sources */,
+				0183BFA12A15FCF400739DA5 /* CGXHotBrandCardCell.m in Sources */,
+				0183BF832A15FCF400739DA5 /* CGXHotBrandZoomFlowLayout.m in Sources */,
+				0183BFA02A15FCF400739DA5 /* CGXHotBrandCardView.m in Sources */,
+				0183BF8A2A15FCF400739DA5 /* CGXHotBrandCoverCell.m in Sources */,
+				0183BF852A15FCF400739DA5 /* CGXHotBrandZoomView.m in Sources */,
+				0183BF8D2A15FCF400739DA5 /* CGXHotBrandBaseCell.m in Sources */,
+				0183BF012A15FC8400739DA5 /* AppDelegate.m in Sources */,
+				0183BF122A15FC8700739DA5 /* main.m in Sources */,
+				0183BF812A15FCF400739DA5 /* CGXHotBrandScrollCell.m in Sources */,
+				0183BF982A15FCF400739DA5 /* CGXHotBrandNumLabel.m in Sources */,
+				0183BF842A15FCF400739DA5 /* CGXHotBrandZoomCell.m in Sources */,
+				0183BFA42A15FCF400739DA5 /* CGXHotBrandRotaryView.m in Sources */,
+				0183BF7D2A15FCF400739DA5 /* CGXHotBrandView.m in Sources */,
+				0183BFA52A15FCF400739DA5 /* CGXHotBrandSliderView.m in Sources */,
+				0183BFA32A15FCF400739DA5 /* CGXHotBrandRotaryCell.m in Sources */,
+				0183BF902A15FCF400739DA5 /* CGXHotBrandTextModel.m in Sources */,
+				0183BF8C2A15FCF400739DA5 /* CGXHotBrandBaseView.m in Sources */,
+				0183BF802A15FCF400739DA5 /* CGXHotBrandScrollView.m in Sources */,
+				0183BF922A15FCF400739DA5 /* CGXHotBrandTools.m in Sources */,
+				0183BFA62A15FCF400739DA5 /* CGXHotBrandSliderCell.m in Sources */,
+				0183BF9F2A15FCF400739DA5 /* CGXHotBrandCardFlowLayout.m in Sources */,
+				0183BF822A15FCF400739DA5 /* CGXHotBrandScrollFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0183BF082A15FC8400739DA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0183BF092A15FC8400739DA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0183BF0D2A15FC8700739DA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0183BF0E2A15FC8700739DA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0183BF132A15FC8700739DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0183BF142A15FC8700739DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0183BF162A15FC8700739DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CGXBannerView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.CGXBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0183BF172A15FC8700739DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CGXBannerView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.CGXBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0183BEF72A15FC8300739DA5 /* Build configuration list for PBXProject "CGXBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0183BF132A15FC8700739DA5 /* Debug */,
+				0183BF142A15FC8700739DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0183BF152A15FC8700739DA5 /* Build configuration list for PBXNativeTarget "CGXBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0183BF162A15FC8700739DA5 /* Debug */,
+				0183BF172A15FC8700739DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0183BEF42A15FC8300739DA5 /* Project object */;
+}
