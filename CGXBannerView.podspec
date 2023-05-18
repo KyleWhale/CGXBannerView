@@ -98,14 +98,14 @@ Pod::Spec.new do |spec|
   spec.subspec 'Custom' do |ss|
     ss.source_files = 'CGXBannerView/Classes/Custom/**/*.{h,m}'
   end
-  spec.subspec 'BPageControl' do |ss|
-    ss.source_files = 'CGXBannerView/Classes/BPageControl/**/*.{h,m}'
+  spec.subspec 'PageControl' do |ss|
+    ss.source_files = 'CGXBannerView/Classes/PageControl/**/*.{h,m}'
     ss.dependency 'CGXBannerView/Custom'
   end
   spec.subspec 'Base' do |ss|
     ss.source_files = 'CGXBannerView/Classes/Base/**/*.{h,m}'
     ss.dependency 'CGXBannerView/Custom'
-    ss.dependency 'CGXBannerView/BPageControl'
+    ss.dependency 'CGXBannerView/PageControl'
   end
   spec.subspec 'HotBrand' do |ss|
     ss.source_files = 'CGXBannerView/Classes/HotBrand/**/*.{h,m}'
