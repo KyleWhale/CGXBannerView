@@ -421,8 +421,8 @@
     if (!self.dataArray.count) return;
     NSInteger current = MAX(self.currentSelectInter, 0);
     CGXHotBrandModel *cellModel = [self pageIndexWithCurrentCellModelAtIndexPath:[NSIndexPath indexPathForRow:current inSection:0]];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:ScrollEndItemAtIndexPath:AtModel:)]) {
-        [self.delegate gx_hotBrandBaseView:self ScrollEndItemAtIndexPath:[NSIndexPath indexPathForRow:current inSection:0] AtModel:cellModel];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:ScrollEndItemAtIndexPath:andModel:)]) {
+        [self.delegate gx_hotBrandBaseView:self ScrollEndItemAtIndexPath:[NSIndexPath indexPathForRow:current inSection:0] andModel:cellModel];
     }
     if (!self.itemEffect) {
         if ([cellModel.hotPicStr hasPrefix:@"http"]) {

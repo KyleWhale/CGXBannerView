@@ -177,10 +177,10 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([self preferredCellClass]) forIndexPath:indexPath];
-    if ([self.delegate respondsToSelector:@selector(gx_hotBrandCellClassForBaseView:)] && [self.delegate gx_hotBrandCellClassForBaseView:self] && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:cellForItemAtIndexPath:AtCell:AtModel:)]) {
+    if ([self.delegate respondsToSelector:@selector(gx_hotBrandCellClassForBaseView:)] && [self.delegate gx_hotBrandCellClassForBaseView:self] && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:cellForItemAtIndexPath:cell:model:)]) {
         [self gx_hotBrandCollectionView:collectionView willDisplayCell:cell forItemAtIndexPath:indexPath];
         return cell;
-    }else if ([self.delegate respondsToSelector:@selector(gx_hotBrandCellNibForBaseView:)] && [self.delegate gx_hotBrandCellNibForBaseView:self] && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:cellForItemAtIndexPath:AtCell:AtModel:)]) {
+    }else if ([self.delegate respondsToSelector:@selector(gx_hotBrandCellNibForBaseView:)] && [self.delegate gx_hotBrandCellNibForBaseView:self] && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:cellForItemAtIndexPath:cell:model:)]) {
         [self gx_hotBrandCollectionView:collectionView willDisplayCell:cell forItemAtIndexPath:indexPath];
         return cell;
     }
@@ -446,15 +446,15 @@
     if (self.hotBrand_loadImageCallback != nil) {
         cellModel.hotBrand_loadImageCallback = weakSelf.hotBrand_loadImageCallback;
     }
-    if (self.delegate && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:cellForItemAtIndexPath:AtCell:AtModel:)]) {
-        [self.delegate gx_hotBrandBaseView:self cellForItemAtIndexPath:indexPath AtCell:cell AtModel:cellModel];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:cellForItemAtIndexPath:cell:model:)]) {
+        [self.delegate gx_hotBrandBaseView:self cellForItemAtIndexPath:indexPath cell:cell model:cellModel];
     }
 }
 - (void)gx_hotBrandCollectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     CGXHotBrandModel *cellModel = [self pageIndexWithCurrentCellModelAtIndexPath:indexPath];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:didSelectItemAtIndexPath:AtModel:)]) {
-        [self.delegate gx_hotBrandBaseView:self didSelectItemAtIndexPath:indexPath AtModel:cellModel];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:didSelectItemAtIndexPath:model:)]) {
+        [self.delegate gx_hotBrandBaseView:self didSelectItemAtIndexPath:indexPath model:cellModel];
     }
 }
 - (void)setPagesNumber:(NSInteger)pagesNumber

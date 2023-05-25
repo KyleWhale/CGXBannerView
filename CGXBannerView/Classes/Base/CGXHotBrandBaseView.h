@@ -32,17 +32,17 @@ NS_ASSUME_NONNULL_BEGIN
 /*点击cell*/
 - (void)gx_hotBrandBaseView:(CGXHotBrandBaseView *)hotView
    didSelectItemAtIndexPath:(NSIndexPath *)indexPath
-                    AtModel:(CGXHotBrandModel *)hotModel;
+                    model:(CGXHotBrandModel *)model;
 
 /*滚动结束cell CGXHotBrandCycleView、CGXHotBrandView无效  */
 - (void)gx_hotBrandBaseView:(CGXHotBrandBaseView *)hotView
       ScrollEndItemAtIndexPath:(NSIndexPath *)indexPath
-                    AtModel:(CGXHotBrandModel *)hotModel;
+                    model:(CGXHotBrandModel *)model;
 /* cell数据交互处理*/
 - (void)gx_hotBrandBaseView:(CGXHotBrandBaseView *)hotView
      cellForItemAtIndexPath:(NSIndexPath *)indexPath
-                     AtCell:(UICollectionViewCell *)cell
-                    AtModel:(CGXHotBrandModel *)hotModel;
+                     cell:(UICollectionViewCell *)cell
+                    model:(CGXHotBrandModel *)model;
 
 /* 正在滚动 */
 - (void)gx_hotBrandBaseView:(CGXHotBrandBaseView *)hotView
