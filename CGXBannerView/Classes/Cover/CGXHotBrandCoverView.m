@@ -176,8 +176,8 @@
     int itemIndex = [self currentIndex];
     int selectIndex = [self pageControlIndexWithCurrentCellIndex:itemIndex];
     CGXHotBrandModel *cellModel = [self pageIndexWithCurrentCellModelAtIndexPath:[NSIndexPath indexPathForRow:selectIndex inSection:0]];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:ScrollEndItemAtIndexPath:andModel:)]) {
-        [self.delegate gx_hotBrandBaseView:self ScrollEndItemAtIndexPath:[NSIndexPath indexPathForRow:selectIndex inSection:0] andModel:cellModel];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(gx_hotBrandBaseView:ScrollEndItemAtIndexPath:model:)]) {
+        [self.delegate gx_hotBrandBaseView:self ScrollEndItemAtIndexPath:[NSIndexPath indexPathForRow:selectIndex inSection:0] model:cellModel];
     }
 }
 - (void)updateWithDataArray:(NSMutableArray<CGXHotBrandModel *> *)dataArray
