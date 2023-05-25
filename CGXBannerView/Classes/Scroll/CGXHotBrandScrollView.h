@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) UICollectionViewScrollDirection scrollDirection;
 
 /* 淡入淡出动画 默认NO */
-@property(nonatomic,assign) BOOL fadeOpen;
+@property(nonatomic,assign) BOOL dissolve;
 
 /* 跑马灯 默认NO */
 @property(nonatomic,assign) BOOL marquee;

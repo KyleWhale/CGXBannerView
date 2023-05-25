@@ -40,7 +40,7 @@
     self.scrollType = CGXHotBrandScrollTypeOnlyImage;
     self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     self.isHavePage = YES;
-    self.fadeOpen = NO;
+    self.dissolve = NO;
     self.marquee = NO;
     self.marqueeRate = 10;
 }
@@ -211,7 +211,7 @@
 
 - (void)fadeAction
 {
-    if (self.fadeOpen) {
+    if (self.dissolve) {
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             int currentIndex = [self currentIndex];
             NSInteger current = MAX(currentIndex, 0);
@@ -294,9 +294,9 @@
     }
 }
 
-- (void)setFadeOpen:(BOOL)fadeOpen
+- (void)setDissolve:(BOOL)dissolve
 {
-    _fadeOpen = fadeOpen;
+    _dissolve = dissolve;
 }
 - (void)setMarquee:(BOOL)marquee
 {
